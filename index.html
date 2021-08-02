@@ -26,6 +26,21 @@
       object-fit: fill;
     
     }
+  .cbr{
+    animation: skew 4s infinite;
+  transform: skew(7deg);
+  animation-direction:alternate
+
+  }
+  @keyframes skew {
+  0% {
+    transform: skewX(7deg);
+  }
+  100% {
+    transform: skewX(-7deg);
+  }
+}
+
     </style>
 </head>
 <body>
@@ -106,8 +121,8 @@
 
                 </div>
                 <div class="col-md-6">
-                  <div class="w-100 cbr">
-                    <img class=" ps-3 img-fluid" src="images/header-bike.png" alt="">
+                  <div class="w-100 cbr ps-2">
+                    <img class="  img-fluid" src="images/header-bike.png" alt="">
                   </div>
                 </div>
                  
